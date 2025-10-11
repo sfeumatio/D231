@@ -1,0 +1,17 @@
+body {
+    font-family: Times, serif;
+    font-size: 12pt;
+    color: black;
+}
+
+nav, footer img {
+    display: none; /* On ne veut pas imprimer le menu ni le logo HTML5 */
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+figure {
+    page-break-inside: avoid;
+}

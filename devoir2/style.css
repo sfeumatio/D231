@@ -1,0 +1,94 @@
+/* style.css */
+
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+/* Conteneur principal pour centrer le contenu */
+main, header, footer {
+    max-width: 900px;       /* largeur maximale pour une bonne lecture */
+    margin: 0 auto;         /* centre le contenu horizontalement */
+    padding: 0 20px;        /* ajoute de l’espace gauche/droite */
+}
+
+/* Titres */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.2em;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Paragraphes */
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Figures et légendes */
+figure {
+    text-align: center;
+    margin: 20px auto;
+}
+
+figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Menu de navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+article figure img {
+    width: 100%;      /* l’image prend toute la largeur du conteneur */
+    max-width: 800px; /* largeur maximale pour ne pas déformer sur grand écran */
+    height: auto;     /* conserve les proportions */
+    display: block;
+    margin: 0 auto;   /* centrer l’image */
+}
+
+
+/* Pied de page */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
